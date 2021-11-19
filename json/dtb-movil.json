@@ -1,0 +1,263 @@
+{
+    "id": "20210920141629082466",
+    "endDateTime": "2021-09-20T14:16:38.204",
+    "mode": "ONDEMAND",
+    "name": "76b890774a806016e21bfec61c5b3f8b6fcbcb9f",
+    "startDateTime": "2021-09-20T14:16:28",
+    "state": "DN",
+    "characteristic": [
+      {
+        "name": "username",
+        "value": "U586853"
+      },
+      {
+        "name": "application",
+        "value": "PDD"
+      },
+      {
+        "name": "crm",
+        "value": "FAN"
+      },
+      {
+        "name": "origen",
+        "value": "ContactCenter"
+      },
+      {
+        "name": "processId",
+        "value": "20210920141629082466"
+      }
+    ],
+    "testSpecification": {
+      "id": "DTB",
+      "name": "DIAGNOSTICO TECNICO BASICO",
+      "version": "V1"
+    },
+    "relatedProductTest": [
+      {
+        "name": "DTB MOVIL",
+        "testDiagnosis": [
+          {
+            "name": "Diagnóstico MOVIL",
+            "verCode": {
+              "code": "PROD-FAIL",
+              "descr": "Se detectaron inconvenientes",
+              "severity": "CRITICA"
+            }
+          }
+        ],
+        "product": {
+          "id": "6",
+          "name": "MOVIL"
+        },
+        "characteristic": [
+          {
+            "name": "terminalMarca",
+            "value": "Motorola"
+          },
+          {
+            "name": "terminalModelo",
+            "value": "M80"
+          },
+          {
+            "name": "IMEI",
+            "value": "12365478935"
+          },
+          {
+            "name": "STATUS",
+            "value": "whitelist"
+          },
+          {
+            "name": "serviciosCRM",
+            "value": [
+              "servicio 1",
+              "servicio 2",
+              "servicio 3",
+              "servicio 4"
+            ]
+          }
+        ],
+        "realizingResourceTest": [
+          {
+            "name": "MOVIL|INTERNET|DATOS|3484592136",
+            "characteristic": [
+              {
+                "name": "type",
+                "value": "INTERNET"
+              },
+              {
+                "name": "subtype",
+                "value": "DATOS"
+              },
+              {
+                "name": "nroabonado",
+                "value": "3484592136"
+              }
+            ],
+            "testDiagnosis": [
+              {
+                "name": "Diagnóstico...",
+                "verCode": {
+                  "code": "ACC-CMW-HFC-ACCFAIL-WRN",
+                  "descr": "Inconveniente en acceso y advertencia en servicio",
+                  "severity": "CRITICA"
+                },
+                "recommendations": [
+                  {
+                    "code": "Internet - Cortes"
+                  },
+                  {
+                    "code": "Internet - Lentitud"
+                  }
+                ]
+              }
+            ],
+            "note": [
+              {
+                "text": "ERROR_TECNICO",
+                "error": {
+                  "code": "HDM_DM1823404000157",
+                  "message": "status 400 reading",
+                  "reason": "{\"error\":{\"errCode\":3000,\"errDesc\":\"Nro inexistente: xxx.\"}}"
+                }
+              }
+            ]
+          },
+          {
+            "name": "MOVIL|TELEFONIA|VOZ|3484592136",
+            "characteristic": [
+              {
+                "name": "type",
+                "value": "TELEFONIA"
+              },
+              {
+                "name": "subtype",
+                "value": "VOZ"
+              },
+              {
+                "name": "nroabonado",
+                "value": "3484592136"
+              }
+            ],
+            "testDiagnosis": [
+              {
+                "name": "Diagnóstico...",
+                "verCode": {
+                  "code": "ACC-CMW-HFC-ACCFAIL-WRN",
+                  "descr": "Inconveniente en acceso y advertencia en servicio",
+                  "severity": "CRITICA"
+                },
+                "recommendations": [
+                  {
+                    "code": "... - Cortes"
+                  },
+                  {
+                    "code": "... - Lentitud"
+                  }
+                ]
+              }
+            ],
+            "note": [
+              {
+                "text": "ERROR_TECNICO",
+                "error": {
+                  "code": "HDM_DM1823404000157",
+                  "message": "status 400 reading",
+                  "reason": "{\"error\":{\"errCode\":3000,\"errDesc\":\"Nro inexistente: xxx.\"}}"
+                }
+              }
+            ]
+          },
+          {
+            "name": "MOVIL|ROAMING||3484592136",
+            "characteristic": [
+              {
+                "name": "type",
+                "value": "ROAMING"
+              },
+              {
+                "name": "subtype",
+                "value": ""
+              },
+              {
+                "name": "nroabonado",
+                "value": "3484592136"
+              }
+            ],
+            "testDiagnosis": [
+              {
+                "name": "Diagnóstico...",
+                "verCode": {
+                  "code": "ACC-CMW-HFC-ACCFAIL-WRN",
+                  "descr": "Inconveniente en acceso y advertencia en servicio",
+                  "severity": "CRITICA"
+                },
+                "recommendations": [
+                  {
+                    "code": "... - Cortes"
+                  },
+                  {
+                    "code": "... - Lentitud"
+                  }
+                ]
+              }
+            ],
+            "note": [
+              {
+                "text": "ERROR_TECNICO",
+                "error": {
+                  "code": "HDM_DM1823404000157",
+                  "message": "status 400 reading",
+                  "reason": "{\"error\":{\"errCode\":3000,\"errDesc\":\"Nro inexistente: xxx.\"}}"
+                }
+              }
+            ]
+          },
+          {
+            "name": "MOVIL|SVA||3484592136",
+            "characteristic": [
+              {
+                "name": "type",
+                "value": "SVA"
+              },
+              {
+                "name": "subtype",
+                "value": ""
+              },
+              {
+                "name": "nroabonado",
+                "value": "3484592136"
+              }
+            ],
+            "testDiagnosis": [
+              {
+                "name": "Diagnóstico...",
+                "verCode": {
+                  "code": "ACC-CMW-HFC-ACCFAIL-WRN",
+                  "descr": "Inconveniente en acceso y advertencia en servicio",
+                  "severity": "CRITICA"
+                },
+                "recommendations": [
+                  {
+                    "code": "... - Cortes"
+                  },
+                  {
+                    "code": "... - Lentitud"
+                  }
+                ]
+              }
+            ],
+            "note": [
+              {
+                "text": "ERROR_TECNICO",
+                "error": {
+                  "code": "HDM_DM1823404000157",
+                  "message": "status 400 reading",
+                  "reason": "{\"error\":{\"errCode\":3000,\"errDesc\":\"Nro inexistente: xxx.\"}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

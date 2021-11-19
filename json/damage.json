@@ -1,0 +1,432 @@
+{
+    "information": {
+      "subscriber": {
+        "identificationTypeId": "4",
+        "identification": "14778784",
+        "name": "GUILLERMO H",
+        "lastName": "BUONSANTI",
+        "Id": "52905425",
+        "statusId": 1,
+        "typeId": 36,
+        "marketingSegmentId": 1,
+        "scoring": "3",
+        "subscriptions": {
+          "subscription": [
+            {
+              "Id": "12439226",
+              "typeId": 5,
+              "addressId": "33568378",
+              "paymentMethod": "DA",
+              "company": 43,
+              "products": {
+                "product": [
+                  {
+                    "productId": "122158504",
+                    "productTypeId": 1,
+                    "productType": "INTERNET CABLEMODEM",
+                    "productStatusId": 1,
+                    "productStatus": "Activo",
+                    "creationDate": "2016-05-04T11:48:20.000-03:00",
+                    "commercialPlanId": 13,
+                    "commercialPlan": "CABLEMODEM RESIDENCIAL",
+                    "companyId": 43,
+                    "company": "Telecom Argentina S.A.",
+                    "addressId": 33568378,
+                    "components": {
+                      "component": [
+                        {
+                          "componentId": "626003218",
+                          "serviceNumber": "626003218",
+                          "comboId": "626003224",
+                          "componentTypeId": 7006,
+                          "componentType": "Internet Cablemodem",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2016-05-04T11:48:21.000-03:00"
+                        },
+                        {
+                          "componentId": "626003220",
+                          "serviceNumber": "90F89151860C",
+                          "parentComponentId": "626003218",
+                          "comboId": "1457743477",
+                          "componentTypeId": 107,
+                          "componentType": "Equipo",
+                          "classServiceId": 52,
+                          "classService": "CableModem WiFi",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2016-05-04T11:48:21.000-03:00"
+                        },
+                        {
+                          "componentId": "626003224",
+                          "serviceNumber": "25",
+                          "componentTypeId": 133,
+                          "componentType": "Combo",
+                          "classServiceId": 826,
+                          "classService": "CABLEMODEM",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2016-05-04T11:48:21.000-03:00"
+                        },
+                        {
+                          "componentId": "839730593",
+                          "serviceNumber": "839730593",
+                          "parentComponentId": "626003218",
+                          "comboId": "1457743477",
+                          "componentTypeId": 7037,
+                          "componentType": "Paquete Mail",
+                          "classServiceId": 2908,
+                          "classService": "SVA Fibertel Mail",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-04-26T11:53:16.000-03:00"
+                        },
+                        {
+                          "componentId": "1457743476",
+                          "serviceNumber": "1457743476",
+                          "parentComponentId": "626003218",
+                          "comboId": "1457743477",
+                          "componentTypeId": 7039,
+                          "componentType": "Velocidad",
+                          "classServiceId": 3502,
+                          "classService": "FT 300Megas WiFi",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2019-03-25T10:52:54.000-03:00"
+                        },
+                        {
+                          "componentId": "1457743477",
+                          "serviceNumber": "829",
+                          "parentComponentId": "626003218",
+                          "componentTypeId": 133,
+                          "componentType": "Combo",
+                          "classServiceId": 3503,
+                          "classService": "FIBER 300MB WI-FI",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2019-03-25T10:52:54.000-03:00"
+                        }
+                      ]
+                    },
+                    "disconnectNoPay": "0"
+                  },
+                  {
+                    "productId": "14263080",
+                    "productTypeId": 2,
+                    "productType": "TV POR CABLE",
+                    "productStatusId": 1,
+                    "productStatus": "Activo",
+                    "creationDate": "2012-09-24T06:53:49.000-03:00",
+                    "commercialPlanId": 10,
+                    "commercialPlan": "CATV ARGENTINA",
+                    "companyId": 43,
+                    "company": "Telecom Argentina S.A.",
+                    "addressId": 33568378,
+                    "components": {
+                      "component": [
+                        {
+                          "componentId": "993657161",
+                          "serviceNumber": "M11747TLD084",
+                          "parentComponentId": "28475710",
+                          "comboId": "993657168",
+                          "componentTypeId": 107,
+                          "componentType": "Equipo",
+                          "classServiceId": 2,
+                          "classService": "DECO HD",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-18T11:04:21.000-03:00"
+                        },
+                        {
+                          "componentId": "993657163",
+                          "serviceNumber": "993657163",
+                          "parentComponentId": "993657161",
+                          "comboId": "993657168",
+                          "componentTypeId": 7004,
+                          "componentType": "Paquete de Canales",
+                          "classServiceId": 40,
+                          "classService": "Paquete HD",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-18T11:04:21.000-03:00"
+                        },
+                        {
+                          "componentId": "993657165",
+                          "serviceNumber": "993657165",
+                          "parentComponentId": "993657161",
+                          "componentTypeId": 7095,
+                          "componentType": "Servicio VOD",
+                          "classServiceId": 2439,
+                          "classService": "Acceso Servicio On Demand",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-18T11:04:21.000-03:00"
+                        },
+                        {
+                          "componentId": "993657167",
+                          "serviceNumber": "993657167",
+                          "parentComponentId": "993657161",
+                          "componentTypeId": 7005,
+                          "componentType": "Señal Premium",
+                          "classServiceId": 9,
+                          "classService": "Pack Fútbol HD",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-18T11:04:21.000-03:00"
+                        },
+                        {
+                          "componentId": "993657168",
+                          "serviceNumber": "20",
+                          "parentComponentId": "28475710",
+                          "componentTypeId": 133,
+                          "componentType": "Combo",
+                          "classServiceId": 821,
+                          "classService": "CV-DIGITAL HD",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-18T11:04:21.000-03:00"
+                        },
+                        {
+                          "componentId": "629993520",
+                          "serviceNumber": "629993520",
+                          "parentComponentId": "28475710",
+                          "componentTypeId": 7003,
+                          "componentType": "Boca Adicional",
+                          "classServiceId": 47,
+                          "classService": "Sin Cargo ",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2016-05-11T10:36:29.000-03:00"
+                        },
+                        {
+                          "componentId": "629993521",
+                          "serviceNumber": "629993521",
+                          "parentComponentId": "28475710",
+                          "componentTypeId": 7003,
+                          "componentType": "Boca Adicional",
+                          "classServiceId": 47,
+                          "classService": "Sin Cargo ",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2016-05-11T10:36:29.000-03:00"
+                        },
+                        {
+                          "componentId": "28475709",
+                          "serviceNumber": "17",
+                          "componentTypeId": 133,
+                          "componentType": "Combo",
+                          "classServiceId": 818,
+                          "classService": "TV POR CABLE",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "1993-07-01T00:00:00.000-03:00"
+                        },
+                        {
+                          "componentId": "28475710",
+                          "serviceNumber": "28475710",
+                          "comboId": "28475709",
+                          "componentTypeId": 7000,
+                          "componentType": "TV por Cable",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "1993-07-01T00:00:00.000-03:00"
+                        }
+                      ]
+                    },
+                    "disconnectNoPay": "0"
+                  },
+                  {
+                    "productId": "168847633",
+                    "productTypeId": 7971,
+                    "productType": "FLOW APP",
+                    "productStatusId": 1,
+                    "productStatus": "Activo",
+                    "creationDate": "2017-10-20T23:26:38.000-03:00",
+                    "commercialPlanId": 255,
+                    "commercialPlan": "FLOW APP",
+                    "companyId": 43,
+                    "company": "Telecom Argentina S.A.",
+                    "addressId": 33568378,
+                    "components": {
+                      "component": [
+                        {
+                          "componentId": "996097564",
+                          "serviceNumber": "996097564",
+                          "parentComponentId": "996097504",
+                          "componentTypeId": 7005,
+                          "componentType": "Señal Premium",
+                          "classServiceId": 9,
+                          "classService": "Pack Fútbol HD",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-20T23:26:52.000-03:00"
+                        },
+                        {
+                          "componentId": "996097504",
+                          "serviceNumber": "168847633",
+                          "comboId": "996097506",
+                          "componentTypeId": 7096,
+                          "componentType": "FLOW APP",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-20T23:26:38.000-03:00"
+                        },
+                        {
+                          "componentId": "996097505",
+                          "serviceNumber": "996097505",
+                          "parentComponentId": "996097504",
+                          "componentTypeId": 7097,
+                          "componentType": "Pack de Canales FLOW APP",
+                          "classServiceId": 3044,
+                          "classService": "Flow App",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-20T23:26:38.000-03:00"
+                        },
+                        {
+                          "componentId": "996097506",
+                          "serviceNumber": "752",
+                          "componentTypeId": 133,
+                          "componentType": "Combo",
+                          "classServiceId": 2907,
+                          "classService": "FLOW APP",
+                          "componentStatusId": 5,
+                          "componentStatus": "Activo",
+                          "creationDate": "2017-10-20T23:26:38.000-03:00"
+                        }
+                      ]
+                    },
+                    "disconnectNoPay": "0"
+                  }
+                ]
+              },
+              "invoices": {
+                "invoice": [
+                  {
+                    "invoiceAmount": "1118.71",
+                    "extendedAmount": "1118.71",
+                    "adjustmentAmount": "1118.71",
+                    "dueDate": "2021-07-05T23:59:59.000-03:00",
+                    "invoiceDateTime": "2021-06-15T16:07:49.000-03:00",
+                    "fechaFinalDist": null
+                  },
+                  {
+                    "invoiceAmount": "1118.4",
+                    "extendedAmount": "1118.4",
+                    "adjustmentAmount": "1118.4",
+                    "dueDate": "2021-06-03T23:59:59.000-03:00",
+                    "invoiceDateTime": "2021-05-19T16:22:10.000-03:00",
+                    "fechaFinalDist": null
+                  },
+                  {
+                    "invoiceAmount": "1054.5",
+                    "extendedAmount": "1054.5",
+                    "adjustmentAmount": "1054.5",
+                    "dueDate": "2021-05-04T23:59:59.000-03:00",
+                    "invoiceDateTime": "2021-04-16T05:28:11.000-03:00",
+                    "fechaFinalDist": null
+                  }
+                ]
+              },
+              "damage": {
+                "outage": [                  
+                  {
+                    "Code": "644771187",
+                    "type": "100577",
+                    "date": "2021-04-26T10:54:38.000-03:00",
+                    "productId": "139269973",
+                    "addressId": "33568378",
+                    "productTypeId": "1"
+                  },
+                  {
+                    "Code": "644771187",
+                    "type": "4",
+                    "date": "2021-04-26T10:54:38.000-03:00",
+                    "productId": "139269973",
+                    "addressId": "33568378",
+                    "productTypeId": "2"
+                  }
+                ]
+              },
+              "claims": {
+                "claim": [
+                  {
+                    "claimCause": "10",
+                    "claimBill": "100",
+                    "claimMag": "102",
+                    "claimGuide": "101",
+                    "claimMot": "10",
+                    "callcenterRecType": "11",
+                    "claim": null
+                  }
+                ]
+              },
+              "canBuyVOD": "0",
+              "endDistributionDate": null
+            }
+          ]
+        },
+        "workOrders": null,
+        "contactData": [
+          {
+            "mails": {
+              "mail": [
+                {
+                  "id": 1392294,
+                  "mail": "GUILLERMO_HORACIO@ARNET.COM.AR",
+                  "useTypeid": 1,
+                  "useType": "Mail",
+                  "contactTypeId": 1,
+                  "contactType": "Particular",
+                  "technicalMail": "N",
+                  "administrativeMail": "N",
+                  "commercialMail": "N",
+                  "electronicInvoiceMail": "Y"
+                },
+                {
+                  "id": 1030861,
+                  "mail": "GUILLERMO_HORACIO@FIBERTEL.COM.AR",
+                  "useTypeid": 5,
+                  "useType": "Mail Mundo Clientes",
+                  "contactTypeId": 1,
+                  "contactType": "Particular",
+                  "technicalMail": "N",
+                  "administrativeMail": "N",
+                  "commercialMail": "N",
+                  "electronicInvoiceMail": "N"
+                }
+              ]
+            },
+            "phones": {
+              "phone": [
+                {
+                  "id": 16935481,
+                  "countryCode": "54",
+                  "areaCode": "11",
+                  "phone": "47554472",
+                  "companyPhone": null,
+                  "phoneTypeId": 1,
+                  "phoneType": "Teléfono Fijo",
+                  "technicalSms": "N",
+                  "administrativeSms": "N",
+                  "commercialSms": "N"
+                },
+                {
+                  "id": 16935486,
+                  "countryCode": "54",
+                  "areaCode": "11",
+                  "phone": "31946484",
+                  "companyPhone": "3",
+                  "phoneTypeId": 2,
+                  "phoneType": "Teléfono Móvil",
+                  "technicalSms": "Y",
+                  "administrativeSms": "Y",
+                  "commercialSms": "Y"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
